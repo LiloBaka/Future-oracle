@@ -771,3 +771,11 @@ test: add api traceability coverage
 feat: add react forecast dashboard
 docs: document architecture and algorithm
 ```
+
+---
+
+## Cloudflare Pages
+
+This repository now includes a production-safe Cloudflare Pages setup. Build from the
+repository root with `npm run build`, publish `dist`, and set the Pages Function variable
+`BACKEND_URL` to the public FastAPI deployment. See `CLOUDFLARE_PAGES.md` for the full setup.

@@ -1,0 +1,13 @@
+{
+  "name": "future-oracle",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend install --no-audit --no-fund && npm --prefix frontend run build && node scripts/copy-frontend-dist.mjs",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}

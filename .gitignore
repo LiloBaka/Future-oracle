@@ -10,3 +10,12 @@ dist/
 .idea/
 .vscode/
 .DS_Store
+
+# Cloudflare / Wrangler local state and secrets
+.dev.vars
+.dev.vars.*
+.wrangler/
+
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
